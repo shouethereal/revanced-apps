@@ -1,6 +1,7 @@
 # ReVanced Magisk Module
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rvc_magisk)
-[![CI](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml)
+[![BUILD](https://img.shields.io/github/actions/workflow/status/shouethereal/revanced-apps/build.yml?style=for-the-badge&logo=github)](https://github.com/shouethereal/revanced-apps/actions/workflows/ci.yml)
+[![RELEASE](https://img.shields.io/github/v/release/shouethereal/revanced-apps?style=for-the-badge&color=blue)](https://github.com/shouethereal/revanced-apps/releases)
+[![LICENSE](https://img.shields.io/github/license/shouethereal/revanced-apps?style=for-the-badge)](https://github.com/shouethereal/revanced-apps/blob/main/LICENSE)
 
 Extensive ReVanced builder  
 
