@@ -1,5 +1,5 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+parallel-jobs = 2
 
 
 [YouTube]
@@ -59,8 +59,12 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+build-mode = "apk"
+arch = "universal"
+version = "auto"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
+patches-version = "dev"
 patcher-args = """\
 -e 'Settings for Reddit' -OrvxSettingsLabel='Revanced Settings' \
 """
