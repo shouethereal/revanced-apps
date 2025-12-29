@@ -1,10 +1,10 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 2
+parallel-jobs = 1
 
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "both"
 build-mode = "both"
 version = "20.21.37"
@@ -28,7 +28,7 @@ patcher-args = """\
 
 [YouTube-Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
 build-mode = "both"
 version = "8.30.54"
@@ -50,27 +50,32 @@ patcher-args = """\
 """
 
 [GooglePhotos]
-build-mode = "both"
-arch = "both"
-version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+build-mode = "both"
+version = "auto"
+arch = "both"
+patches-version = "dev"
 
 [Reddit]
-# apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 build-mode = "apk"
-arch = "universal"
-version = "auto"
+arch = "both"
+version = "2025.12.1"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 patcher-args = """\
--e 'Settings for Reddit' -OrvxSettingsLabel='Revanced Settings' \
+-e 'Settings for Reddit' \
+-OrvxSettingsLabel='Revanced Settings' \
 """
 
 [Spotify]
 enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+build-mode = "both"
+version = "auto"
+arch = "both"
+patches-version = "dev"
