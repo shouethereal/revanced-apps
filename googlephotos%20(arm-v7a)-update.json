@@ -1,6 +1,6 @@
 {
-  "version": "v7.57.0.843750501 (patches dev.8)",
-  "versionCode": 6,
-  "zipUrl": "https://github.com/shouethereal/revanced-apps/releases/download/6/googlephotos-revanced-magisk-v7.57.0.843750501-arm-v7a.zip",
+  "version": "v7.57.0.843750501 (patches dev.9)",
+  "versionCode": 10,
+  "zipUrl": "https://github.com/shouethereal/revanced-apps/releases/download/10/googlephotos-revanced-magisk-v7.57.0.843750501-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/shouethereal/revanced-apps/update/build.md"
 }
