@@ -1,5 +1,5 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+parallel-jobs = 2
 
 
 [YouTube]
@@ -9,7 +9,6 @@ arch = "both"
 build-mode = "both"
 version = "20.21.37"
 patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 included-patches = "'Hide Shorts dimming' 'Hide shortcuts'"
 patcher-args = """\
@@ -33,7 +32,6 @@ arch = "both"
 build-mode = "both"
 version = "8.30.54"
 patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 included-patches = "'Disable music video in album' 'Hide overlay filter' 'Hide player overlay filter'"
 patcher-args = """\
@@ -64,7 +62,6 @@ build-mode = "apk"
 arch = "both"
 version = "2025.12.1"
 patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 patches-version = "dev"
 patcher-args = """\
 -e 'Settings for Reddit' \
