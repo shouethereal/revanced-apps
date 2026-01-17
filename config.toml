@@ -1,15 +1,15 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 2
+parallel-jobs = 1
 
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+patches-version = "dev"
 arch = "both"
 build-mode = "both"
 version = "20.21.37"
-patches-source = "anddea/revanced-patches"
-patches-version = "dev"
 included-patches = "'Hide Shorts dimming' 'Hide shortcuts'"
 patcher-args = """\
 -e 'Custom branding name for YouTube' \
@@ -25,14 +25,14 @@ patcher-args = """\
 -OpackageNameYouTubeMusic=com.google.android.apps.youtube.music \
 """
 
-[YouTube-Music]
+[YouTube Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+patches-version = "dev"
 arch = "both"
 build-mode = "both"
 version = "8.30.54"
-patches-source = "anddea/revanced-patches"
-patches-version = "dev"
 included-patches = "'Disable music video in album' 'Hide overlay filter' 'Hide player overlay filter'"
 patcher-args = """\
 -e 'Custom branding name for YouTube Music' \
@@ -47,33 +47,19 @@ patcher-args = """\
 -OpackageNameYouTubeMusic=com.google.android.apps.youtube.music \
 """
 
-[GooglePhotos]
-enabled = false
+[Google-Photos]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-build-mode = "both"
-version = "auto"
-arch = "both"
 patches-version = "dev"
+arch = "both"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-build-mode = "apk"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+patches-version = "dev"
 arch = "both"
 version = "2025.12.1"
-patches-source = "anddea/revanced-patches"
-patches-version = "dev"
 patcher-args = """\
 -e 'Settings for Reddit' \
 -OrvxSettingsLabel='Revanced Settings' \
 """
-
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
-build-mode = "both"
-version = "auto"
-arch = "both"
-patches-version = "dev"
