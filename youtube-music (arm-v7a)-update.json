@@ -1,6 +1,6 @@
 {
   "version": "v8.30.54 (patches dev.2.rvp)",
-  "versionCode": 4,
-  "zipUrl": "https://github.com/shouethereal/revanced-apps/releases/download/4/youtube-music-revanced-magisk-v8.30.54-arm-v7a.zip",
+  "versionCode": 5,
+  "zipUrl": "https://github.com/shouethereal/revanced-apps/releases/download/5/youtube-music-revanced-magisk-v8.30.54-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/shouethereal/revanced-apps/update/build.md"
 }
